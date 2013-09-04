@@ -1,0 +1,5 @@
+name: neoascetic's blog
+disqus: neoascetic
+layouts: .
+permalink: /:title
+markdown: redcarpet

@@ -1,0 +1,38 @@
+---
+layout: nil
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+  <h1 class="site-header"><a href="/">{{ site.name }}</a></h1>
+
+  {% if content %}
+    <article>
+      {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+      <section>{{ content }}</section>
+      {% if site.disqus %}
+      <section id="disqus_thread"></section>
+      <script src="//{{ site.disqus }}.disqus.com/embed.js" async="true"></script>
+      {% endif %}
+    </article>
+  {% else %}
+  <ul class="posts-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date }}">{{ post.date|date:"%d.%m.%Y" }}</time>
+      <a href="{{ post.url }}" title="{{ post.excerpt|strip_html }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</body>
+
+</html>

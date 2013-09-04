@@ -1,0 +1,62 @@
+* { box-sizing: border-box; } /* FTW! */
+
+html {
+  font-size: 10px;
+  font-family: helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 3rem auto;
+  width: 90rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Monaco, monospace;
+}
+
+.site-header {
+  font-weight: normal;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.site-header a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.posts-list {
+  list-style-type: none;
+}
+.posts-list time {
+  font-family: Monaco, monospace;
+  color: gray;
+}
+.posts-list li {
+  margin: 1rem 0;
+}
+.posts-list time:after {
+  content: "»";
+  display: inline-block;
+  margin: 0 .5rem;
+  color: black;
+}
+
+article {
+  text-align: justify;
+}
+
+#disqus_thread {
+  border-top: .1rem inset #EEE;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 3rem;
+  border-left: .5rem solid #EEE;
+}
