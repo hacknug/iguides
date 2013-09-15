@@ -7,8 +7,10 @@ html {
 
 body {
   font-size: 1.4rem;
+  max-width: 90rem;
+  min-width: 40rem;
   margin: 3rem auto;
-  width: 90rem;
+  padding: 0 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
