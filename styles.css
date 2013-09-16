@@ -15,12 +15,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Monaco, monospace;
+  text-align: center;
 }
 
 .site-header {
   font-weight: normal;
   font-size: 5rem;
-  text-align: center;
 }
 
 .site-header a {
@@ -47,11 +47,11 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-article {
+.content {
   text-align: justify;
 }
 
-#disqus_thread {
+.comments {
   border-top: .1rem dashed #CCC;
   margin-top: 3rem;
   padding-top: 3rem;

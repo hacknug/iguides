@@ -17,9 +17,9 @@ layout: nil
   {% if content %}
     <article>
       {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
-      <section>{{ content }}</section>
+      <section class="content">{{ content }}</section>
       {% if site.disqus %}
-      <section id="disqus_thread"></section>
+      <section id="disqus_thread" class="comments"></section>
       <script src="//{{ site.disqus }}.disqus.com/embed.js" async="true"></script>
       {% endif %}
     </article>
