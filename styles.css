@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 .site-header a {
   color: black !important;
   text-decoration: none !important;
+  border-bottom: .1rem dashed #CCC;
+  padding-bottom: .5rem;
 }
 
 .posts-list {
@@ -50,7 +52,7 @@ article {
 }
 
 #disqus_thread {
-  border-top: .1rem inset #EEE;
+  border-top: .1rem dashed #CCC;
   margin-top: 3rem;
   padding-top: 3rem;
 }
