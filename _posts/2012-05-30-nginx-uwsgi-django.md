@@ -14,7 +14,7 @@ passenger, приходилось создавать `passenger_wsgi.py` в ди
 
 Устанавливаем:
 
-```sh
+```bash
 sudo apt-get install nginx uwsgi uwsgi-plugin-python
 ```
 
@@ -22,17 +22,17 @@ sudo apt-get install nginx uwsgi uwsgi-plugin-python
 содержанием:
 
 ```ini
-# /etc/uwsgi/apps-available/sitename.ini
+; /etc/uwsgi/apps-available/sitename.ini
 [uwsgi]
 plugins = python27
 chdir = /home/user/sitename/
 pythonpath = ..
-# это для 1.3, для 1.4 изменить на нужный путь импорта
-# (как правило, sitename.wsgi:application, тогда и надобность в env отпадает)
+; это для 1.3, для 1.4 изменить на нужный путь импорта
+; (как правило, sitename.wsgi:application, тогда и надобность в env отпадает)
 env = DJANGO_SETTINGS_MODULE=settings
 module = django.core.handlers.wsgi:WSGIHandler()
 
-# при необходимости - путь к окружению
+; при необходимости - путь к окружению
 virtualenv = /home/user/.virtualenvs/someenv/
 ```
 

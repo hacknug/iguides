@@ -17,7 +17,6 @@ categories: [nginx, lulz]
 Итак, хак:
 
 ```nginx
-
 location @root {
     ...
 }
@@ -25,7 +24,6 @@ location @root {
 location / {
     error_page 418 = @root; return 418; # redirect to @root
 }
-
 ```
 
 Да, вот так вот - присваиваем определенному коду ошибки обработчик в виде

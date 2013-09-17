@@ -40,7 +40,7 @@ WTF? Методом долгого и нудного гугления и нес�
 session-related модулей, необходимо добавить consolekit-коннектор:
 
 ```ini
-# /etc/pam.d/common-session
+; /etc/pam.d/common-session
 session optional pam_ck_connector.so nox11
 ```
 
@@ -73,7 +73,7 @@ ConsoleKit (дважды спалившись, правда, с лоли), ин�
 Бред какой-то, подумал я. И сделал `grep /usr -i ConsoleKit`. Нашел это:
 
 ```ini
-# /usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service
+; /usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service
 [D-BUS Service]
 Name=org.freedesktop.ConsoleKit
 Exec=/usr/sbin/console-kit-daemon --no-daemon
@@ -96,7 +96,7 @@ SystemdService=console-kit-daemon.service
 Содержимое `/lib/systemd/system/console-kit-daemon.service`:
 
 ```ini
-# /lib/systemd/system/console-kit-daemon.service
+; /lib/systemd/system/console-kit-daemon.service
 [Unit]
 Description=Console Manager
 After=syslog.target

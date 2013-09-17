@@ -3,3 +3,4 @@ disqus: neoascetic
 layouts: .
 permalink: /:title
 markdown: redcarpet
+pygments: false

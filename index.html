@@ -8,6 +8,7 @@ layout: nil
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
+  <link rel="stylesheet" href="//yandex.st/highlightjs/7.3/styles/github.min.css">
   <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -33,6 +34,8 @@ layout: nil
     {% endfor %}
   </ul>
   {% endif %}
+
+  <script src="//yandex.st/highlightjs/7.3/highlight.min.js" onload="hljs.initHighlightingOnLoad()" async="async"></script>
 </body>
 
 </html>

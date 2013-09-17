@@ -64,3 +64,8 @@ blockquote {
   padding-left: 3rem;
   border-left: .5rem solid #EEE;
 }
+
+pre code {
+  border-radius: 3px;
+  border: solid 1px #ddd;
+}
