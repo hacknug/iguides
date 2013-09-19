@@ -33,13 +33,16 @@ h1, h2, h3, h4, h5, h6 {
 .posts-list {
   list-style-type: none;
 }
+
+.posts-list li {
+  margin: 1rem 0;
+}
+
 .posts-list time {
   font-family: Monaco, monospace;
   color: gray;
 }
-.posts-list li {
-  margin: 1rem 0;
-}
+
 .posts-list time:after {
   content: "»";
   display: inline-block;
