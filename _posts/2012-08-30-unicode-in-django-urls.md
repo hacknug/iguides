@@ -99,5 +99,5 @@ slugа на основе заголовка. Проблема в том, что 
 
 
 
-[urlify.js]: https://raw.github.com/django/django/master/django/contrib/admin/static/admin/js/urlify.js
+[urlify.js]: http://git.io/VIR5Ow
 [uwsgi post]: {% post_url 2012-05-30-nginx-uwsgi-django %}
