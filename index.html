@@ -15,7 +15,7 @@ layout: nil
 <body>
   <h1 class="site-header"><a href="/">{{ site.name }}</a></h1>
 
-  {% if content %}
+  {% if content.size > 0 %}
     <article>
       {% if page.title %}
       <h2>{% if page.link %}<a href="{{ page.link }}">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h2>
@@ -27,15 +27,20 @@ layout: nil
       {% endif %}
     </article>
   {% else %}
-  <ul class="posts-list">
-    {% for post in site.posts %}
-    <li>
-      <time datetime="{{ post.date|date_to_xmlschema }}">{{ post.date|date:"%d.%m.%Y" }}</time>
-      <a href="{{ post.url }}" title="{{ post.excerpt|strip_html }}">{{ post.title }}</a>
-      {% if post.link %}<a href="{{ post.link }}">✪</a>{% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+    {% if page.url == '/404.html' %}
+      <h2>404 Not Found</h2>
+      <h3>Take a look at something else!<br>↓↓↓</h3>
+    {% endif %}
+
+    <ul class="posts-list">
+      {% for post in site.posts %}
+      <li>
+        <time datetime="{{ post.date|date_to_xmlschema }}">{{ post.date|date:"%d.%m.%Y" }}</time>
+        <a href="{{ post.url }}" title="{{ post.excerpt|strip_html }}">{{ post.title }}</a>
+        {% if post.link %}<a href="{{ post.link }}">✪</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
   {% endif %}
 
   <script src="//yandex.st/highlightjs/7.3/highlight.min.js" onload="hljs.initHighlightingOnLoad()" async="async"></script>
