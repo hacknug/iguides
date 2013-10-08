@@ -1,6 +1,6 @@
 name: neoascetic's blog
 disqus: neoascetic
 layouts: .
-permalink: /:title
+permalink: /:title/
 markdown: redcarpet
 pygments: false
