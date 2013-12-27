@@ -2,47 +2,46 @@
 layout: nil
 ---
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="{{ page.excerpt|strip_html }}">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
-  <link rel="stylesheet" href="//yandex.st/highlightjs/7.3/styles/github.min.css">
   <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-  <h1 class="site-header"><a href="/">{{ site.name }}</a></h1>
+  <h1><a href="/">{{ site.name }}</a></h1>
 
   {% if content.size > 0 %}
-    <article>
-      {% if page.title %}
-      <h2>{% if page.link %}<a href="{{ page.link }}">{{ page.title }}</a>{% else %}{{ page.title }}{% endif %}</h2>
-      {% endif %}
-      <section class="content">{{ content }}</section>
-      {% if site.disqus %}
-      <section id="disqus_thread" class="comments"></section>
-      <script src="//{{ site.disqus }}.disqus.com/embed.js" async="async"></script>
-      {% endif %}
-    </article>
-  {% else %}
-    {% if page.url == '/404.html' %}
-      <h2>404 Not Found</h2>
-      <h3>Take a look at something else!<br>↓↓↓</h3>
+    {% if page.title %}
+    <h2>{{ page.title }}&nbsp;{% if page.link %}<a href="{{ page.link }}">✪</a>{% endif %}</h2>
     {% endif %}
 
-    <ul class="posts-list">
+    <section class="content">{{ content }}</section>
+
+    {% if site.disqus %}
+    <section class="comments" id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments</noscript>
+      <script src="//{{ site.disqus }}.disqus.com/embed.js" async="async"></script>
+    </section>
+    {% endif %}
+  {% else %}
+    {% if page.url == '/404.html' %}
+    <h2>404 Not Found. Take a look at something different!</h2>
+    {% endif %}
+
+    <nav>
       {% for post in site.posts %}
-      <li>
-        <time datetime="{{ post.date|date_to_xmlschema }}">{{ post.date|date:"%d.%m.%Y" }}</time>
-        <a href="{{ post.url }}" title="{{ post.excerpt|strip_html }}">{{ post.title }}</a>
-        {% if post.link %}<a href="{{ post.link }}">✪</a>{% endif %}
-      </li>
+      <p>
+        <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">✪</a>{% endif %}
+      </p>
       {% endfor %}
-    </ul>
+    </nav>
   {% endif %}
 
+  <link rel="stylesheet" href="//yandex.st/highlightjs/7.3/styles/github.min.css">
   <script src="//yandex.st/highlightjs/7.3/highlight.min.js" onload="hljs.initHighlightingOnLoad()" async="async"></script>
 </body>
 

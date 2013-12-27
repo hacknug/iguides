@@ -1,81 +1,17 @@
-* { box-sizing: border-box; } /* FTW! */
+body { margin: 3ex; font-family: "PT Sans", sans-serif; }
 
-html {
-  font-size: 10px;
-  font-family: helvetica, sans-serif;
-}
+h1,
+h2 { text-align: center; }
+h1 a { text-decoration: none; color: black; }
 
-body {
-  font-size: 1.4rem;
-  max-width: 90rem;
-  min-width: 40rem;
-  margin: 3rem auto;
-  padding: 0 3rem;
-}
+img { width: 100%; }
+code { overflow-x: auto; }
+blockquote { font-style: italic; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: Monaco, monospace;
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin: 1rem auto;
-  height: auto;
-  max-width: 100%;
-}
-
-.site-header {
-  font-weight: normal;
-  font-size: 5rem;
-}
-
-.site-header a {
-  color: black !important;
-  text-decoration: none !important;
-  border-bottom: .1rem dashed #CCC;
-  padding-bottom: .5rem;
-}
-
-.posts-list {
-  list-style-type: none;
-}
-
-.posts-list li {
-  margin: 1rem 0;
-}
-
-.posts-list time {
-  font-family: Monaco, monospace;
-  color: gray;
-}
-
-.posts-list time:after {
-  content: "»";
-  display: inline-block;
-  margin: 0 .5rem;
-  color: black;
-}
+nav,
+section { max-width: 70ex; margin: 0 auto; }
 
 .content {
   text-align: justify;
-}
-
-.comments {
-  border-top: .1rem dashed #CCC;
-  margin-top: 3rem;
-  padding-top: 3rem;
-}
-
-blockquote {
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: 0;
-  padding-left: 3rem;
-  border-left: .5rem solid #EEE;
-}
-
-pre code {
-  border-radius: 3px;
-  border: solid 1px #ddd;
+  hyphens: auto; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto;
 }
