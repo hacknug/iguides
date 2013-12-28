@@ -8,6 +8,8 @@ layout: nil
   <meta charset="utf-8">
   <meta name="description" content="{{ page.excerpt|strip_html }}">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+
+  <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   <link rel="stylesheet" href="/styles.css">
 </head>
 
@@ -52,9 +54,6 @@ layout: nil
       {% endif %}
     </nav>
   {% endif %}
-
-  <link rel="stylesheet" href="//yandex.st/highlightjs/7.3/styles/github.min.css">
-  <script src="//yandex.st/highlightjs/7.3/highlight.min.js" onload="hljs.initHighlightingOnLoad()" async="async"></script>
 </body>
 
 </html>

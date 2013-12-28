@@ -32,7 +32,7 @@ class PageAvatars(models.Model):
                                 verbose_name=_('Page'),
                                 related_name='extended_fields')
     big_avatar = FBF(_(u'Big Avatar'), max_length=255, blank=True)
-    small_avatar = FBF(_(u'Small Avatar'), max_length=255, blank=True
+    small_avatar = FBF(_(u'Small Avatar'), max_length=255, blank=True)
 ```
 
 В оригинальной статье предлагается использовать `ForeignKey`, но у нас связь

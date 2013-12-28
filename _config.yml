@@ -5,4 +5,4 @@ permalink: /:title/
 paginate: 10
 paginate_path: ":num"
 markdown: redcarpet
-pygments: false
+pygments: true

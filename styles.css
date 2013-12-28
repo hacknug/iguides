@@ -7,11 +7,12 @@ h2,
 h1 a { text-decoration: none; color: black; }
 
 img { width: 100%; }
-code { overflow-x: auto; }
 blockquote { font-style: italic; }
 
 nav,
 section { max-width: 70ex; margin: 0 auto; }
+
+.highlight { overflow-x: auto; }
 
 .content {
   text-align: justify;
