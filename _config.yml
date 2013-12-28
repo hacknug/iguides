@@ -2,5 +2,7 @@ name: me.neoascetic
 disqus: neoascetic
 layouts: .
 permalink: /:title/
+paginate: 10
+paginate_path: ":num"
 markdown: redcarpet
 pygments: false
