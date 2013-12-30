@@ -5,6 +5,10 @@ layout: nil
 <html lang="ru">
 
 <head>
+  {% if page.url == '/404.html' %}
+  <meta http-equiv="refresh" content="5; url=/">
+  {% endif %}
+
   <meta charset="utf-8">
   <meta name="description" content="{{ page.excerpt|strip_html }}">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
@@ -16,7 +20,9 @@ layout: nil
 <body>
   <h1><a href="/">{{ site.name }}</a></h1>
 
-  {% if content.size > 0 %}
+  {% if page.url == '/404.html' %}
+    <h2>404 Not Found. You will be redirected to home page in 5 seconds!</h2>
+  {% elsif content.size > 0 %}
     {% if page.title %}
     <h2>{{ page.title }}&nbsp;{% if page.link %}<a href="{{ page.link }}">✪</a>{% endif %}</h2>
     {% endif %}
@@ -30,10 +36,6 @@ layout: nil
     </section>
     {% endif %}
   {% else %}
-    {% if page.url == '/404.html' %}
-    <h2>404 Not Found. Take a look at something different!</h2>
-    {% endif %}
-
     <nav>
       {% for post in paginator.posts %}
       <p>
