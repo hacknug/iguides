@@ -2,7 +2,6 @@
 layout: index
 title: Редирект на внутренний location в nginx, или 418 Я - чайник
 date: 2013-03-18 23:04
-categories: [nginx, lulz]
 ---
 
 Намедни удосужилось мне использовать этот [шуточный HTTP код][wiki]. Кто бы мог

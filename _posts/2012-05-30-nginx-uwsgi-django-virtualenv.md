@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Django, Nginx, Uwsgi [и Virtualenv]
-categories: [django, nginx, virtualenv]
 ---
 
 Не то что бы я кучу времени тратил на это, но порой было весьма неудобно и

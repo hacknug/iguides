@@ -1,7 +1,6 @@
 ---
 layout: index
 title: PDO, FETCH_CLASS и нативные типы PHP
-categories: [php, детектив, linux, fasttip]
 ---
 
 Немало времени потратил, пытаясь понять, почему же при выборке из MySQL и

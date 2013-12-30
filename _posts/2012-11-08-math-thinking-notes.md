@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Introduction to Mathematical Thinking @ coursera.org
-categories: [coursera, math]
 ---
 
 Первый мой завершенный курс из многих интересных, представленных на

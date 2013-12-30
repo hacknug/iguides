@@ -1,7 +1,6 @@
 ---
 layout: index
-title: Оптимизация изображений, сгенерированных easy-thumbnails (PIL)
-categories: [django, оптимизация, fasttip]
+title: Оптимизация изображений, сгенерированных easy-thumbnails (для Django)
 ---
 
 Я пользуюсь `easy-thumbnails` в django-проектах для генерации превьюшек.

@@ -1,7 +1,6 @@
 ---
 layout: index
 title: ConsoleKit. Детектив
-categories: [linux, детектив]
 ---
 
 Детективная история о том, откуда у ConsoleKit ноги растут, почему он плодит так

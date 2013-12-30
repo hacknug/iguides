@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Установка Geocouch на Debian
-categories: [couchdb, geocouch, linux]
 ---
 
 Наиболее удобный (imho) способ установки geospatial-расширения Geocouch для

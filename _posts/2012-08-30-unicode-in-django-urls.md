@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Юникод в URLах Django
-categories: [django, django-cms]
 ---
 
 Патчим django (и django-cms) для поддержки символов юникода в URL. Сама Джанго
@@ -100,4 +99,4 @@ slugа на основе заголовка. Проблема в том, что 
 
 
 [urlify.js]: http://git.io/VIR5Ow
-[uwsgi post]: {% post_url 2012-05-30-nginx-uwsgi-django %}
+[uwsgi post]: {% post_url 2012-05-30-nginx-uwsgi-django-virtualenv %}

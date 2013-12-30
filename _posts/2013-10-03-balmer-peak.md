@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Статистические доказательства существования "Пика Балмера"
-categories: [lulz, links]
 link: http://compulenta.computerra.ru/chelovek/meditsina/10007509/
 ---
 

@@ -2,7 +2,6 @@
 layout: index
 title: Расширение модели Page в Django-CMS
 date: 2013-01-18 22:24
-categories: [django, django-cms]
 ---
 
 Уже несколько раз при разработке проектов на базе Django-CMS у меня возникала

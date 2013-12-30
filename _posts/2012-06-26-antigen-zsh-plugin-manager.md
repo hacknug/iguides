@@ -1,7 +1,6 @@
 ---
 layout: index
 title: Antigen - vundle-like менеджер плагинов для zsh
-categories: [zsh, linux]
 ---
 
 Небольшой обзор antigen, vundle-like менеджера управления плагинами (большей

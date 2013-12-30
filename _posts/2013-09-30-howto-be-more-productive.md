@@ -1,7 +1,6 @@
 ---
 layout: index
 title: "HOWTO: Be more productive"
-categories: [productivity, links]
 link: http://www.aaronsw.com/weblog/productivity
 ---
 
