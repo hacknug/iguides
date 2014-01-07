@@ -1,6 +1,6 @@
 ---
 layout: index
-title: ConsoleKit. Детектив
+title: Что за хрень этот ваш ConsoleKit?
 ---
 
 Детективная история о том, откуда у ConsoleKit ноги растут, почему он плодит так
