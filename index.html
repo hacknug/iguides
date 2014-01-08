@@ -5,7 +5,7 @@ layout: nil
 <html lang="ru">
 
 <head>
-  {% if page.url == '/404.html' %}
+  {% if page.path == '404.html' %}
   <meta http-equiv="refresh" content="5; url=/">
   {% endif %}
 
@@ -15,12 +15,14 @@ layout: nil
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   <link rel="stylesheet" href="/styles.css">
+
+  <link href="/atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
 <body>
   <h1><a href="/">{{ site.name }}</a></h1>
 
-  {% if page.url == '/404.html' %}
+  {% if page.path == '404.html' %}
     <h2>404 Not Found. You will be redirected to home page in 5 seconds!</h2>
   {% elsif content.size > 0 %}
     {% if page.title %}
@@ -29,10 +31,10 @@ layout: nil
 
     <section class="content">{{ content }}</section>
 
-    {% if site.disqus %}
+    {% if site.disqus_shortname %}
     <section class="comments" id="disqus_thread">
       <noscript>Please enable JavaScript to view the comments</noscript>
-      <script src="//{{ site.disqus }}.disqus.com/embed.js" async="async"></script>
+      <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
     </section>
     {% endif %}
   {% else %}

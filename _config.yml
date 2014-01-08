@@ -1,8 +1,12 @@
-name: me.neoascetic
-disqus: neoascetic
-layouts: .
+name: me.neoascetic             # required
+url: http://blog.neoascetic.me  # required, no trailing slash
+author: neoascetic              # required, used in Atom feed
+disqus_shortname: neoascetic    # optional, disqus site identifier
+
+pygments: true
 permalink: /:title/
+markdown: redcarpet
 paginate: 10
 paginate_path: ":num"
-markdown: redcarpet
-pygments: true
+
+layouts: .
