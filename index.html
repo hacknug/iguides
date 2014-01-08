@@ -34,6 +34,11 @@ layout: nil
     {% if site.disqus_shortname %}
     <section class="comments" id="disqus_thread">
       <noscript>Please enable JavaScript to view the comments</noscript>
+      <script>
+        var disqus_title = '{{ page.title }}';
+        var disqus_identifier = window.location.pathname;
+        var disqus_url = '{{ site.url }}' + window.location.pathname;
+      </script>
       <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
     </section>
     {% endif %}
