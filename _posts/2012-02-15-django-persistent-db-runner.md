@@ -73,19 +73,19 @@ class PersistentDBRunner(DjangoTestSuiteRunner):
     def __init__(self, *args, **kwargs):
         super(PersistentDBRunner, self).__init__(*args, **kwargs)
  
-    def _create_test_db(self, *args, **kwargs):
-        test_database_name = self._get_test_db_name()
-        self.connection.close()
-        self.connection.settings_dict["NAME"] = test_database_name
-        cursor = self.connection.cursor()
-        return test_database_name
+        def _create_test_db(self, *args, **kwargs):
+            test_database_name = self._get_test_db_name()
+            self.connection.close()
+            self.connection.settings_dict["NAME"] = test_database_name
+            cursor = self.connection.cursor()
+            return test_database_name
  
-    def _destroy_test_db(self, old_db_name, *args, **kwargs):
-        self.connection.close()
-        self.connection.settings_dict['NAME'] = old_db_name
+        def _destroy_test_db(self, old_db_name, *args, **kwargs):
+            self.connection.close()
+            self.connection.settings_dict['NAME'] = old_db_name
  
-    creation.BaseDatabaseCreation.create_test_db = _create_test_db
-    creation.BaseDatabaseCreation.destroy_test_db = _destroy_test_db
+        creation.BaseDatabaseCreation.create_test_db = _create_test_db
+        creation.BaseDatabaseCreation.destroy_test_db = _destroy_test_db
 ```
 
 Вот и все. Помещаем класс где-нибудь, указываем в `TEST_RUNNER` путь к нему - и
