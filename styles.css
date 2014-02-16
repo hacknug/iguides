@@ -1,20 +1,40 @@
-body { margin: 3ex; font-family: "PT Sans", sans-serif; }
+body {
+  margin: 3ex;
+  font-family: "PT Sans", sans-serif;
+}
 
 h1,
 h2,
-.pagination { text-align: center; }
+header,
+.pagination {
+  text-align: center;
+}
 
-h1 a { text-decoration: none; color: black; }
-
-img { width: 100%; }
-blockquote { font-style: italic; }
+.logo a {
+  text-decoration: none;
+  color: black;
+}
 
 nav,
-section { max-width: 70ex; margin: 0 auto; }
+article {
+  max-width: 70ex;
+  margin: 0 auto;
+}
 
-.highlight { overflow-x: auto; }
-
-.content {
+article {
   text-align: justify;
-  hyphens: auto; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto;
+  -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
+}
+
+img {
+  width: 100%;
+}
+
+time,
+blockquote {
+  font-style: italic;
+}
+
+.highlight {
+  overflow-x: auto;
 }
