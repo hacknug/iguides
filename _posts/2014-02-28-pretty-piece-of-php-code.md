@@ -8,6 +8,8 @@ title: Замечательный кусочек PHP-кода
 определенным минимальным их количеством. Речь о методе `CMap::mergeArray()`:
 
 ```php
+<?
+
 public static function mergeArray($a,$b)
 {
     $args=func_get_args();
@@ -27,6 +29,8 @@ public static function mergeArray($a,$b)
     }
     return $res;
 }
+
+?>
 ```
 
 Я сперва и не обратил внимания, что аргументы `$a` и `$b` далее в коде не
