@@ -6,7 +6,7 @@ disqus_shortname: neoascetic    # optional, disqus site identifier
 pygments: true
 permalink: /:title/
 markdown: redcarpet
-paginate: 10
+paginate: 15
 paginate_path: ":num"
 
 layouts: .
