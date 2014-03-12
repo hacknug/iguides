@@ -30,6 +30,7 @@ layout: nil
       <h1>{{ page.title }}&nbsp;{% if page.link %}<a href="{{ page.link }}">✪</a>{% endif %}</h1>
       <time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time>
     </header>
+
     {{ content }}
 
     {% if site.disqus_shortname %}
