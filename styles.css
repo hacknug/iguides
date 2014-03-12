@@ -5,11 +5,6 @@ body {
   padding: 3ex;
 }
 
-.logo a {
-  text-decoration: none;
-  color: black;
-}
-
 article p {
   -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
   text-align: justify;
@@ -17,6 +12,11 @@ article p {
 
 img {
   width: 100%;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
 }
 
 .highlight {
