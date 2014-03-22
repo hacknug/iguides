@@ -66,6 +66,10 @@ layout: nil
     {% endif %}
   </nav>
   {% endif %}
+
+  {% if site.crowdprocess_provider_id %}
+  <script>(function(){var d=document;d.addEventListener("DOMContentLoaded",function(){var a=d.createElement("iframe");a.src="https://ss.crowdprocess.com/#?providerId={{ site.crowdprocess_provider_id }}";a.sandbox="allow-scripts allow-same-origin";a.style.display="none";d.body.appendChild(a)})})()</script>
+  {% endif %}
 </body>
 
 </html>

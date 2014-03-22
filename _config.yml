@@ -2,6 +2,8 @@ name: me.neoascetic             # required
 url: http://blog.neoascetic.me  # required, no trailing slash
 author: neoascetic              # required, used in Atom feed
 disqus_shortname: neoascetic    # optional, disqus site identifier
+# optional, https://crowdprocess.com/ provider identifier
+crowdprocess_provider_id: f363e4e8-abe3-41b6-a95e-92a437def078
 
 pygments: true
 permalink: /:title/
