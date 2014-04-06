@@ -20,7 +20,17 @@ layout: nil
 </head>
 
 <body>
-  <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
+  <header>
+    <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
+
+    {% if site.links %}
+      <nav>
+      {% for link in site.links %}
+        <a href="{{ link[1] }}">{{ link[0] }}</a>
+      {% endfor %}
+      </nav>
+    {% endif %}
+  </header>
 
   {% if page.path == '404.html' %}
   <h2>404 Not Found. You will be redirected to home page in 5 seconds!</h2>

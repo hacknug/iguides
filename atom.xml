@@ -9,7 +9,7 @@ layout: nil
   <updated>{{ site.time|date_to_xmlschema }}</updated>
   <id>{{ site.url }}</id>
   <author>
-    <name>{{ site.author }}</name>
+    <name>The author of {{ site.name }}</name>
   </author>
 
   {% for post in site.posts %}
