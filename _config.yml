@@ -13,7 +13,7 @@ links:
 # http://disqus.com/ site identifier
 disqus_shortname: neoascetic
 # https://crowdprocess.com/ provider identifier
-crowdprocess_provider_id: f363e4e8-abe3-41b6-a95e-92a437def078
+crowdprocess_provider_id: 07fbeb61-ff70-4889-a197-57fb24854db9
 
 ## jekyll settings
 pygments: true
