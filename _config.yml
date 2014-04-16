@@ -1,4 +1,6 @@
 ## parameters of your blog
+# specify language in which most of your posts are
+lang: ru
 # name of your blog, required
 name: me.neoascetic
 # url on which your blog is available (no trailing slash), required
