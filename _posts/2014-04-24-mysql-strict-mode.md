@@ -19,4 +19,4 @@ title: Strict-режим в MySQL
 
 
 
-[strict-mode]: http://dev.mysql.com/doc/innodb/1.1/en/innodb-other-changes-strict-mode.html
+[strict-mode]: http://dev.mysql.com/doc/refman/5.7/en/sql-mode.html#sql-mode-strict
