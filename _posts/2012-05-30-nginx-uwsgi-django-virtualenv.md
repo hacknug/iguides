@@ -3,12 +3,12 @@ layout: index
 title: Django, Nginx, Uwsgi [и Virtualenv]
 ---
 
-Не то что бы я кучу времени тратил на это, но порой было весьма неудобно и
-муторно поднять django в виртуальном окружении. Делал это однажды, юзая
-passenger, приходилось создавать `passenger_wsgi.py` в директории проекта,
+Не то  что бы я  кучу времени тратил  на это, но  порой было весьма  неудобно и
+муторно  поднять  django  в  виртуальном окружении.  Делал  это  однажды,  юзая
+passenger,  приходилось  создавать  `passenger_wsgi.py` в  директории  проекта,
 чудить по всякому...
 
-Через `uwsgi` все гораздо проще и приятней. Для связки с `nginx` достаточно
+Через `uwsgi`  все гораздо проще  и приятней.  Для связки с  `nginx` достаточно
 всего двух файлов конфигурации!
 
 Устанавливаем:
@@ -17,7 +17,7 @@ passenger, приходилось создавать `passenger_wsgi.py` в ди
 sudo apt-get install nginx uwsgi uwsgi-plugin-python
 ```
 
-Переходим в `/etc/uwsgi/apps-available/`. Создаем `sitename.ini` с таким
+Переходим  в  `/etc/uwsgi/apps-available/`.   Создаем  `sitename.ini`  с  таким
 содержанием:
 
 ```ini
@@ -37,8 +37,8 @@ virtualenv = /home/user/.virtualenvs/someenv/
 
 Делаем линк во "включенные" приложения: `sudo ln -s sitename ../apps-enabled/`.
 
-Теперь - энджинкс. Переходим в `/etc/nginx/sites-available/`. Создаем, опять же,
-`sitename` с примерно таким содержимым:
+Теперь -  энджинкс. Переходим  в `/etc/nginx/sites-available/`.  Создаем, опять
+же, `sitename` с примерно таким содержимым:
 
 ```nginx
 # /etc/nginx/sites-available/sitename
