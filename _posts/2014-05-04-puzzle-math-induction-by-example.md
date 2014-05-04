@@ -3,7 +3,7 @@ layout: index
 title: Puzzle. Математическая индукция на примере
 ---
 
-В  курсе  [Algorythms:  Design  and  Analysis][algo  course]  на  Coursera  (на
+В  курсе  [Algorythms:  Design  and  Analysis][algo course]  на  Coursera   (на
 который, к  слову, забил,  предпочев книжке Кормена)  посоветовали [Mathematics
 for  Computer  Science][book] за  авторством  двух  товарищей из  Принстонского
 университета, дабы восполнить пробелы в необходимом математическом бэкграунде.
