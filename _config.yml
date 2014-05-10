@@ -4,7 +4,7 @@ lang: ru
 # name of your blog, required
 name: me.neoascetic
 # url on which your blog is available (no trailing slash), required
-url: http://blog.neoascetic.me
+url: http://neoascetic.me
 # optional list of links that will be placed in the header
 links:
   Имэйл: mailto:i@neoascetic.me
@@ -20,7 +20,7 @@ disqus_shortname: neoascetic
 crowdprocess_provider_id: 07fbeb61-ff70-4889-a197-57fb24854db9
 
 ## jekyll settings
-pygments: true
+highlighter: true
 permalink: /:title/
 markdown: redcarpet
 paginate: 15
