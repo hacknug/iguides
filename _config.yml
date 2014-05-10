@@ -28,3 +28,5 @@ paginate_path: ":num"
 
 ## system theme stuff, do not modify unless you know what're you doing
 layouts: .
+
+gems: [jekyll-sitemap]
