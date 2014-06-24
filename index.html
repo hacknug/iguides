@@ -20,8 +20,6 @@ layout: nil
 
 <body>
   <header>
-    <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
-
     {% if site.links %}
       <nav>
       {% for link in site.links %}
@@ -29,6 +27,8 @@ layout: nil
       {% endfor %}
       </nav>
     {% endif %}
+
+    <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
   </header>
 
   {% if page.path == '404.html' %}

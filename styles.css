@@ -10,9 +10,8 @@ body > header {
 }
 
 body > header > nav {
-  position: absolute;
-  top: .5rem;
-  right: 0;
+  float: right;
+  margin-top: .5rem;
 }
 
 article p {
