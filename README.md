@@ -68,7 +68,7 @@ after five seconds of waiting) and atom-feed, respectively. If you want to have
 your blog on  your custom domain you can refer  to corresponding [documentation
 entry][github-pages-custom-domain] of Github Pages.
 
-Take a look at the theme and appreciate  the charm of its minimalism you may on
+You may  take a look  at theme  and appreciate the  charm of its  minimalism on
 [this website][demo], and if you want to see underlying structure you may go to
 [theme repo][theme-repo].
 
