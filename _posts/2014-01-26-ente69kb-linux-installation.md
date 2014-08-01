@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Установка Linux на Packard Bell Easynote TE69KB
 ---
 

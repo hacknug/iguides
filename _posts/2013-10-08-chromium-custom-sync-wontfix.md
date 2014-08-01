@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Опенсорсный хромиум такой опенсорсный
 link: https://code.google.com/p/chromium/issues/detail?id=181429
 ---

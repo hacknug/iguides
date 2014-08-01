@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Introduction to Mathematical Thinking @ coursera.org
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Django, Nginx, Uwsgi [и Virtualenv]
 ---
 

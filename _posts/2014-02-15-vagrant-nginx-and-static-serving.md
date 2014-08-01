@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Vagrant, nginx и отдача статики
 ---
 

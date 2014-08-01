@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Установка Geocouch на Debian
 ---
 

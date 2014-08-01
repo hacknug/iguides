@@ -1,5 +1,4 @@
 ---
-layout: index
 title: "Mozilla Location Service: MozStumbler vs. Aurora"
 ---
 

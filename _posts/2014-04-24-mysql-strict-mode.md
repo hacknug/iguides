@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Strict-режим в MySQL
 ---
 

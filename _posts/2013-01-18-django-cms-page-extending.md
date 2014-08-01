@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Расширение модели Page в Django-CMS
 date: 2013-01-18 22:24
 ---

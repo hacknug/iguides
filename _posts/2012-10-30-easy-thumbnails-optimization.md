@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Оптимизация изображений, сгенерированных easy-thumbnails (для Django)
 ---
 

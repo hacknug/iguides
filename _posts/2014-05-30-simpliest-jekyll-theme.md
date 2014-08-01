@@ -1,5 +1,4 @@
 ---
-layout: index
 title: smpl - простейшая тема для Jekyll
 ---
 
@@ -52,12 +51,13 @@ push в git-репозиторий!
 его  корень эти  три файла,  скачанные  из [репозитория  темы][theme-repo] и  -
 начинаем писать  посты. Посты (в  формате [markdown][github-flavored-markdown])
 должны  лежать   в  директории  `_posts`,  именоваться   согласно  [требованиям
-Jekyll][jekyll-post-requirements]   (YYYY-MM-DD-post-title.md)    и   содержать
-минимальный [front-matter][jekyll-front-matter]:
+Jekyll][jekyll-post-requirements]    (YYYY-MM-DD-post-title.md).    Вместе    с
+поддержкой  сервисом  версии 2  генератора  [front-matter][jekyll-front-matter]
+стал  опциональным.  Если же  вас  устраивает  сгенерированный из  имени  файла
+заголовок поста, можно его переопределить:
 
 ```yaml
 ---
-layout: index
 title: A post title
 ---
 ```

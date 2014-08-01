@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Antigen - vundle-like менеджер плагинов для zsh
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: index
 title: raw.githack.com
 link: http://raw.githack.com/
 ---

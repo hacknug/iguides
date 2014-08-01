@@ -1,5 +1,4 @@
 ---
-layout: index
 title: PDO, FETCH_CLASS и нативные типы PHP
 ---
 

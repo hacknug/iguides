@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Не брей яков!
 ---
 

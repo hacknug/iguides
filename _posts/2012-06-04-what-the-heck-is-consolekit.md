@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Что за хрень этот ваш ConsoleKit?
 ---
 

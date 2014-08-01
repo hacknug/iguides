@@ -49,12 +49,13 @@ named `<your-nickname-on-github>.github.io`,  put within  its root  these three
 files, that may be downloaded from  [theme repo][theme-repo] - and we are ready
 to start writing posts! Posts (written in [markdown][github-flavored-markdown])
 need to  lay within the  `_posts` directory, be  named with respect  to [Jekyll
-requirements][jekyll-post-requirements]  (YYYY-MM-DD-post-title.md)   and  must
-contain minimal [front-matter][jekyll-front-matter]:
+requirements][jekyll-post-requirements]  (YYYY-MM-DD-post-title.md). Now,  when
+the service announced  support of version 2  of the generator, you  are free to
+not specify [front-matter][jekyll-front-matter] on a  post if you OK with title
+generated from filename. However, you may override it if you wish:
 
 ```yaml
 ---
-layout: index
 title: A post title
 ---
 ```

@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Django persistent DB runner
 ---
 

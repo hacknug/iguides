@@ -1,5 +1,4 @@
 ---
-layout: index
 title: Редирект на внутренний location в nginx, или 418 Я - чайник
 date: 2013-03-18 23:04
 ---
