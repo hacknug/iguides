@@ -25,10 +25,9 @@ permalink: /:title/
 markdown: redcarpet
 paginate: 15
 paginate_path: ":num"
+gems: [jekyll-sitemap]
 
 ## system theme stuff, do not modify unless you know what're you doing
-layouts: .
-gems: [jekyll-sitemap]
 defaults:
   -
     scope:
