@@ -41,24 +41,17 @@ browsers they differs only by values of margins and paddings. *Scripts...* what
 the scripts, for what?! Why do we need any kind of dynamics within simple - and
 trying to keep its simplicity! - blog?
 
-So,  how  to  use  `smpl`?  Minimum  files  set  which  you  need  to  have  in
-blog's  repository  consists  in  `_config.yml`  (main  website  settings,  you
-better to  look inside),  `index.html` (main  - and the  only! -  template) and
-`styles.css` (the  minimum set  of styles).  We need  to create  git repository
-named `<your-nickname-on-github>.github.io`,  put within  its root  these three
-files, that may be downloaded from  [theme repo][theme-repo] - and we are ready
-to start writing posts! Posts (written in [markdown][github-flavored-markdown])
-need to  lay within the  `_posts` directory, be  named with respect  to [Jekyll
-requirements][jekyll-post-requirements]  (YYYY-MM-DD-post-title.md). Now,  when
-the service announced  support of version 2  of the generator, you  are free to
-not specify [front-matter][jekyll-front-matter] on a  post if you OK with title
-generated from filename. However, you may override it if you wish:
-
-```yaml
----
-title: A post title
----
-```
+So,  how  to   use  `smpl`?  It's  easy.  Fork   [theme  repo][theme-repo]  and
+rename  it  to  `<your-nickname-on-github>.github.io`. Remove  all  posts  from
+directories  `_posts`,  `_drafts`  and  `about`,   and  also  all  images  from
+`images`  directory. You  need to  change `CNAME`  if you  need [custom  domain
+support][github-pages-custom-domain]  or delete  it otherwise.  Take a  look at
+`_config.yml` in order to change it for your needs. That's it! You may begin to
+write  posts.  They  must be  written  in  [markdown][github-flavored-markdown]
+and  lie within  `_posts`  directory.  They also  should  be  named as  [Jekyll
+requires][jekyll-post-requirements] (YYYY-MM-DD-post-title.md) and there should
+be minimal [front-matter][jekyll-front-matter] at the top of each post in which
+you may redefine post's title if you didn't like generated one.
 
 Further please refer to [Jekyll documentation][jekyll-docs]. At this moment you
 already may make a git push and take a look at your nice minimalistic blog.
