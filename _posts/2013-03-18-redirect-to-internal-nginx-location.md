@@ -1,5 +1,6 @@
 ---
 title: Редирект на внутренний location в nginx, или 418 Я - чайник
+redirect_from: "/redirect-to-internal-location-nginx/"
 date: 2013-03-18 23:04
 ---
 
