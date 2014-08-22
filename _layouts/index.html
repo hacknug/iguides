@@ -28,7 +28,27 @@
     <h1 class="logo"><a href="/">{{ site.name }}</a></h1>
   </header>
 
-  {% if page.path != 'index.html' %}
+  {% if page.is_index %}
+  <nav>
+    {% for post in paginator.posts %}
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}
+    </p>
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page  %}
+      <a href="{% if paginator.previous_page == 1 %}/{% else %}{{ paginator.previous_page_path }}{% endif %}">←</a>
+      {% endif %}
+      <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">→</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </nav>
+  {% else %}
   <article>
     <header>
       <h1>{{ page.title }}{% if page.link %}&nbsp;<a href="{{ page.link }}">&infin;</a>{% endif %}</h1>
@@ -49,26 +69,6 @@
     </div>
     {% endunless %}
   </article>
-  {% else %}
-  <nav>
-    {% for post in paginator.posts %}
-    <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}
-    </p>
-    {% endfor %}
-
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page  %}
-      <a href="{% if paginator.previous_page == 1 %}/{% else %}{{ paginator.previous_page_path }}{% endif %}">←</a>
-      {% endif %}
-      <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}">→</a>
-      {% endif %}
-    </div>
-    {% endif %}
-  </nav>
   {% endif %}
 
   {% if site.crowdprocess_provider_id %}
