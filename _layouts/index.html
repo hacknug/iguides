@@ -9,8 +9,8 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-  {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path }}" />{% endif %}
-  {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path }}" />{% endif %}
+  {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path | replace:'index.html','' }}">{% endif %}
+  {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path }}">{% endif %}
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   <link rel="stylesheet" href="/styles.css">
@@ -42,7 +42,7 @@
     {% if paginator.total_pages > 1 %}
     <div class="pagination">
       {% if paginator.previous_page %}
-      <a href="{% if paginator.previous_page == 1 %}/{% else %}{{ paginator.previous_page_path }}{% endif %}">←</a>
+      <a href="{{ paginator.previous_page_path | replace:'index.html','' }}">←</a>
       {% endif %}
       <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
       {% if paginator.next_page %}
