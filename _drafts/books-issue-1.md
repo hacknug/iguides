@@ -129,4 +129,4 @@ Scala писать мне будет просто неприятно. На оч�
 [darkus-books-issue]: http://users.livejournal.com/_darkus_/475279.html
 [law-of-demeter]: http://ru.wikipedia.org/wiki/Закон_Деметры
 [do-not-shave-yaks]: {% post_url 2014-05-24-do-not-shave-yaks %}
-[tonsky-post]: http://tonsky.livejournal.com/294276.html?thread=3998340
+[tonsky-post]: http://tonsky.livejournal.com/294276.html
