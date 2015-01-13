@@ -1,5 +1,6 @@
 ---
 title: smpl - простейшая тема для Jekyll
+link: https://github.com/neoascetic/neoascetic.github.io
 ---
 
 Простейший (sic!) способ вести блог like a hacker с помощью Github Pages.

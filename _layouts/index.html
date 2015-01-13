@@ -34,9 +34,10 @@
   {% if page.is_index %}
   <nav>
     {% for post in paginator.posts %}
-    <p>
-      <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}
-    </p>
+    <article>
+      <h1><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}</h1>
+      <p>{{ post.excerpt|strip_html }}</p>
+    </article>
     {% endfor %}
 
     {% if paginator.total_pages > 1 %}

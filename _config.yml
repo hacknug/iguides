@@ -23,7 +23,7 @@ crowdprocess_provider_id: 07fbeb61-ff70-4889-a197-57fb24854db9
 highlighter: pygments
 permalink: /:title/
 markdown: redcarpet
-paginate: 15
+paginate: 5
 paginate_path: ":num"
 gems: [jekyll-sitemap, jekyll-redirect-from]
 
