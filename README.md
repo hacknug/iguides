@@ -1,4 +1,4 @@
-smpl - simpliest jekyll theme
+smpl - the simplest jekyll theme
 =============================
 
 Easiest (sic!) way to run blog like a hacker using Github Pages.
