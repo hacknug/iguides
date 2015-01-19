@@ -1,5 +1,5 @@
 ---
-title: Learning how to learn. Чанкинг.
+title: Learning how to learn. Чанкинг
 date: 2015-01-19 10:55
 ---
 
