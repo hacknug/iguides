@@ -2,15 +2,23 @@
 <html lang="{{ site.lang }}">
 
 <head>
+  <meta charset="utf-8">
+
   {% if page.path == '404.html' %}
   <meta http-equiv="refresh" content="5; url=/">
   {% endif %}
 
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 
-  {% if paginator.previous_page %}<link rel="prev" href="{{ paginator.previous_page_path | replace:'index.html','' }}">{% endif %}
-  {% if paginator.next_page %}<link rel="next" href="{{ paginator.next_page_path }}">{% endif %}
+  {% if paginator.previous_page %}
+  <link rel="prev" href="{{ paginator.previous_page_path | replace:'index.html','' }}">
+  {% endif %}
+
+  {% if paginator.next_page %}
+  <link rel="next" href="{{ paginator.next_page_path }}">
+  {% endif %}
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   <link rel="stylesheet" href="/styles.css">
