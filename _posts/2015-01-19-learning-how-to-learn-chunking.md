@@ -108,3 +108,5 @@ date: 2015-01-19 10:55
 удачное решение какой-то проблемы.
 
 Предыдущий пост: [сфокусированное и рассеянное мышление]({% post_url 2015-01-19-learning-how-to-learn-focused-vs-diffuse-modes %})
+
+Следующий пост: [прокрастинация и память]({% post_url 2015-01-30-learning-how-to-learn-procrastination-and-memory %})
