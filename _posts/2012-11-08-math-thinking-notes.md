@@ -1,5 +1,5 @@
 ---
-title: Introduction to Mathematical Thinking @ coursera.org
+title: Introduction to mathematical thinking
 ---
 
 Первый   мой  завершенный   курс  из   многих  интересных,   представленных  на
