@@ -23,7 +23,6 @@ highlighter: pygments
 permalink: /:title/
 markdown: redcarpet
 paginate: 5
-paginate_path: ":num"
 gems: [jekyll-sitemap, jekyll-redirect-from]
 
 ## system theme stuff, do not modify unless you know what're you doing
