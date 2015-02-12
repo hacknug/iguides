@@ -23,6 +23,13 @@ comments_disabled: true
   <section>
     <h1>Опыт работы:</h1>
 
+    <style>
+      .buzzwords { padding: 0; }
+      .skill:after { content: ", "; }
+      .skill:last-child:after { content: ""; }
+      .skill { display: inline; list-style: none; }
+    </style>
+
     <ol class="p-experience experience">
       <li value="3" class="h-event vevent">
         <time class="dt-start dtstart">2014</time>&nbsp;&ndash;&nbsp;&hellip;
@@ -30,7 +37,7 @@ comments_disabled: true
           <a class="fn org url" href="http://dealerfire.com">Dealerfire LLC</a>
         </span>
         (<span class="p-location location">Калининград</span>)
-        <ul class="p-summary summary">
+        <ul class="p-summary summary buzzwords">
           <li class="skill">PHP/Samopis</li>
           <li class="skill">Python</li>
           <li class="skill">Sphinx</li>
@@ -45,11 +52,11 @@ comments_disabled: true
           <a class="fn org url" href="http://монастырёв.рф">МОНАСТЫРЁВ.рф</a>
         </span>
         (<span class="p-location location">Владивосток</span>)
-        <ul class="p-summary summary">
+        <ul class="p-summary summary buzzwords">
           <li class="skill">PHP/Laravel 3/4</li>
           <li class="skill">SpineJS</li>
           <li class="skill">MySQL/MariaDB</li>
-          <li class="skill">Intersystems Cache</li>
+          <li class="skill">InterSystems Caché</li>
           <li class="skill">MSSQL</li>
           <li class="skill">PostgreSQL</li>
           <li class="skill">Codeception</li>
@@ -63,7 +70,7 @@ comments_disabled: true
           <a class="fn org url" href="http://holidayautosasia.com">Holidayautos Asia</a>
         </span>
         (<span class="p-location location">удалёнка</span>)
-        <ul class="p-summary summary">
+        <ul class="p-summary summary buzzwords">
           <li class="skill">Python/Django</li>
           <li class="skill">MySQL</li>
           <li class="skill">AWS</li>
