@@ -1,5 +1,5 @@
-smpl - the simplest jekyll theme
-=============================
+smpl - the simplest jekyll theme [![](https://img.shields.io/badge/license-WTFPL-green.svg?style=flat-square)](http://www.wtfpl.net/)
+================================
 
 Easiest (sic!) way to run blog like a hacker using Github Pages.
 
