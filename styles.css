@@ -9,9 +9,11 @@ body > header {
   position: relative;
 }
 
-body > header > nav {
-  float: right;
-  margin-top: .5rem;
+@media screen and (min-width: 480px) {
+  body > header > nav {
+    float: right;
+    margin-top: .5rem;
+  }
 }
 
 article p {
