@@ -41,4 +41,4 @@ title: Не брей яков!
 
 
 [book]: http://shop.oreilly.com/product/9780596519544.do
-[yak-image]: http://upload.wikimedia.org/wikipedia/commons/3/3a/Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg
+[yak-image]: http://farm9.staticflickr.com/8332/8148000595_cd178b4820_b.jpg
