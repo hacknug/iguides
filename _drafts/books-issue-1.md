@@ -169,6 +169,8 @@ E. Lehman, T. Leighton. Mathematics for Computer Science (2004)
 A. Avram, F. Marinescu. Domain-Driven Design Quickly
 ----------------------------------------------------
 
+![](/images/books-issue-1/8.jpg)
+
 Domain  Driven Design  ([проблемно-оринтированное проектирование][ddd-wiki])  -
 набор  правил, позволяющих  принимать правильные  проектные решения  и ускорить
 процесс проектирования в незнакомой предметной области. Я захотел познакомиться
