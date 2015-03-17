@@ -107,6 +107,8 @@ todo-списке  - начал  выполнять весь  список. Ув
 
 Предыдущий пост: [чанкинг]({% post_url 2015-01-19-learning-how-to-learn-chunking %})
 
+Следующий пост: [раскрытие собственного потенциала]({% post_url 2015-03-17-learning-how-to-learn-unlock-your-potential %})
+
 
 
 [Anki]: http://www.ankisrs.net/
