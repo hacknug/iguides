@@ -8,10 +8,10 @@ url: "http://hacknug.github.io"
 baseurl: "/terranigma"
 # optional list of links that will be placed in the header
 links:
-  Имэйл: mailto:i@neoascetic.me
-  Гитхаб: https://github.com/neoascetic/
-  Твиттор: https://twitter.com/neoascetic
-  Эбаут: /about/
+  Guía Original: "http://terranigma.gurkgamer.com"
+  Github: https://github.com/hacknug
+  Тwitter: https://twitter.com/hack_nug
+  About: /about/
 
 ## 3rd party services (all parameters are optional)
 #### http://disqus.com/ site identifier
