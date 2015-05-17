@@ -4,7 +4,8 @@ lang: ru
 # name of your blog, required
 name: me.neoascetic
 # url on which your blog is available (no trailing slash), required
-url: http://neoascetic.me
+url: "http://hacknug.github.io"
+baseurl: "/terranigma"
 # optional list of links that will be placed in the header
 links:
   Имэйл: mailto:i@neoascetic.me
