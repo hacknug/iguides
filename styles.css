@@ -16,6 +16,10 @@ body > header {
   }
 }
 
+article p {
+  text-align: justify;
+}
+
 img {
   float: left;
   max-width: 100%;
