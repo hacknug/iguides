@@ -17,6 +17,11 @@ body > header {
 }
 
 article p {
+  /* -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -epub-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; */
   text-align: justify;
 }
 
