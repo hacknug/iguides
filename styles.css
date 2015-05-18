@@ -46,3 +46,8 @@ table {
   -webkit-border-horizontal-spacing: 0;
   -webkit-border-vertical-spacing: 10px;
 }
+
+td {
+  border-width: 1px;
+  border-bottom-style: solid;
+}
