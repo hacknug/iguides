@@ -43,4 +43,6 @@ img {
 table {
   width: 100%;
   text-align: left;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 10px;
 }
