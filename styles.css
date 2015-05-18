@@ -35,3 +35,8 @@ img {
 .highlight {
   overflow-x: auto;
 }
+
+table {
+  width: 100%;
+  text-align: left;
+}
