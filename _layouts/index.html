@@ -61,10 +61,12 @@
   </nav>
   {% else %}
   <article>
+    {% comment %}
     <header>
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
       <h1>{{ page.title }}{% if page.link %}&nbsp;<a href="{{ page.link }}">&infin;</a>{% endif %}</h1>
     </header>
+    {% endcomment %}
 
     {{ content }}
 
