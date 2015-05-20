@@ -41,8 +41,8 @@
   <nav>
     {% for post in paginator.posts %}
     <article>
+      {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}</h1>
-      {% if post.date %}<time datetime="{{ post.date|date_to_xmlschema }}">{{ post.date|date_to_long_string }}</time>{% endif %}
       <p>{{ post.excerpt|strip_html }}</p>
     </article>
     {% endfor %}
@@ -62,8 +62,8 @@
   {% else %}
   <article>
     <header>
+      {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
       <h1>{{ page.title }}{% if page.link %}&nbsp;<a href="{{ page.link }}">&infin;</a>{% endif %}</h1>
-      {% if page.date %}<time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time>{% endif %}
     </header>
 
     {{ content }}
