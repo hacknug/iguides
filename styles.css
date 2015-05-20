@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, sans-serif;
-  max-width: 70ex;
+  max-width: 48em;
   margin: 0 auto;
   padding: 3ex;
 }
@@ -23,6 +23,14 @@ article p {
   -ms-hyphens: auto;
   hyphens: auto; */
   text-align: justify;
+  line-height:1.5;
+  font-size:100%;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 img {
