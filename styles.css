@@ -1,5 +1,5 @@
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: Georgia, sans-serif;
   max-width: 70ex;
   margin: 0 auto;
   padding: 3ex;
@@ -45,7 +45,7 @@ table {
   text-align: left;
   -webkit-border-horizontal-spacing: 0;
   -webkit-border-vertical-spacing: 10px;
-  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 td, th {
