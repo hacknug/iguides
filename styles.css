@@ -66,6 +66,10 @@ article p {
   -webkit-margin-end: 0px;
 }
 
+p:first-child {
+  font-size: .75rem;
+}
+
 img {
   float: left;
   max-width: 100%;
