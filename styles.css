@@ -67,7 +67,8 @@ article p {
 }
 
 article p:first-of-type {
-  font-size: .75rem;
+  font-size: .875rem;
+  padding-top: 3rem;
 }
 
 img {
