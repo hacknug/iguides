@@ -71,7 +71,7 @@
 
     {{ content }}
 
-    {% unless page.comments_disabled and site.disqus_shortname %}
+    {% comment %}{% unless page.comments_disabled and site.disqus_shortname %}
     <div id="disqus_thread">
       <noscript>Please enable JavaScript to view the comments</noscript>
       <script>
@@ -81,7 +81,7 @@
       </script>
       <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
     </div>
-    {% endunless %}
+    {% endunless %}{% endcomment %}
   </article>
   {% endif %}
 
