@@ -71,7 +71,7 @@ article p {
   -webkit-margin-end: 0px;
 }
 
-article p:first-of-type {
+.leyenda {
   font-size: .875rem;
   padding-top: 3rem;
 }
