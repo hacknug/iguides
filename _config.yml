@@ -9,8 +9,8 @@ baseurl: "/terranigma"
 # optional list of links that will be placed in the header
 links:
   Guía Original: "http://terranigma.gurkgamer.com"
-  Github: https://github.com/hacknug
-  Тwitter: https://twitter.com/hack_nug
+  Github: "https://github.com/hacknug"
+  Twitter: "https://twitter.com/hack_nug"
   About: /about/
 
 ## 3rd party services (all parameters are optional)
