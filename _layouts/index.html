@@ -39,7 +39,6 @@
   </header>
 
   {% if page.is_index %}
-  <nav>
     {% for post in paginator.posts %}
     <article>
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
@@ -59,7 +58,6 @@
       {% endif %}
     </div>
     {% endif %}
-  </nav>
   {% else %}
   <article>
     {% comment %}

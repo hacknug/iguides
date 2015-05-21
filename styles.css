@@ -87,6 +87,11 @@ img {
   color: black;
 }
 
+.logo a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .highlight {
   overflow-x: auto;
 }
