@@ -1,5 +1,3 @@
-@import url('{{ site.baseurl }}/fonts/fonts.css');
-
 body {
   font-family: Georgia, serif;
   max-width: 48em;
