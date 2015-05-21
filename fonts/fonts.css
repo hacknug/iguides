@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'geomanistmedium';
+  src: url('geomanist-medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('geomanist-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('geomanist-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('geomanist-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('geomanist-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('geomanist-medium-webfont.svg#geomanistmedium') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
