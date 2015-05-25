@@ -27,6 +27,7 @@
 
 <body>
   <header>
+    <h1 class="logo"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
     {% if site.links %}
     <nav>
       {% for link in site.links %}
@@ -34,8 +35,6 @@
       {% endfor %}
     </nav>
     {% endif %}
-
-    <h1 class="logo"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
   </header>
 
   {% if page.is_index %}
