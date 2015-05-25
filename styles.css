@@ -131,6 +131,8 @@ article {
     width: 25%;
     float: left;
     position: fixed;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 3em;
   }
 
   article {
