@@ -1,17 +1,20 @@
 ## parameters of your blog
 # specify language in which most of your posts are
 lang: es
+
 # name of your blog, required
 name: Terranigma - Gurk
+
 # url on which your blog is available (no trailing slash), required
 url: "http://hacknug.github.io"
 baseurl: "/terranigma"
+
 # optional list of links that will be placed in the header
 links:
   Guía Original: "http://terranigma.gurkgamer.com"
   Github: "https://github.com/hacknug"
   Twitter: "https://twitter.com/hack_nug"
-  About: /about/
+  About: "{{ site.baseurl }}/about/"
 
 ## 3rd party services (all parameters are optional)
 #### http://disqus.com/ site identifier
