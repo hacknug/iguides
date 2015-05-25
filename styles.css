@@ -119,7 +119,7 @@ header {
   box-sizing: border-box;
   padding-right: 20px;
   width: 25%;
-  /* float: left; */
+  float: left;
   position: fixed;
 }
 
