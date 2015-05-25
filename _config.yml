@@ -14,7 +14,7 @@ links:
   Guía Original: "http://terranigma.gurkgamer.com"
   Github: "https://github.com/hacknug"
   Twitter: "https://twitter.com/hack_nug"
-  About: "{{ site.baseurl }}/about/"
+  About: "http://hacknug.github.io/terranigma/about/"
 
 ## 3rd party services (all parameters are optional)
 #### http://disqus.com/ site identifier
