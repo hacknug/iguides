@@ -78,6 +78,8 @@ article p, li {
 .leyenda {
   font-size: .875rem;
   /* padding-top: 3rem; */
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 img {
@@ -115,7 +117,7 @@ td, th {
   padding-bottom: 12px;
 }
 
-@media screen and (min-width: 68em) {
+@media screen and (min-width: 48em) {
   header {
     box-sizing: border-box;
     padding-right: 20px;
