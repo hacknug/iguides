@@ -82,14 +82,16 @@ img {
   margin: 0 1rem 1rem 0;
 }
 
-.logo a {
-  text-decoration: none;
+.logo {
   color: black;
 }
 
-.logo a:hover {
+a {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
-  color: black;
 }
 
 .highlight {
