@@ -114,3 +114,16 @@ td, th {
   border-bottom-style: solid;
   padding-bottom: 12px;
 }
+
+header {
+  box-sizing: border-box;
+  padding-right: 20px;
+  width: 25%;
+  /* float: left; */
+  position: fixed;
+}
+
+article {
+  max-width: 48em;
+  margin: 0 auto;
+}
