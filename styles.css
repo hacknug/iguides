@@ -9,11 +9,15 @@ body > header {
   position: relative;
 }
 
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
   body > header > nav {
-    /* float: right; */
+    float: right;
     margin-top: .5rem;
   }
+} */
+
+.logo {
+  margin: 0;
 }
 
 nav {
