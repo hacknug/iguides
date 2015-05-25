@@ -115,15 +115,17 @@ td, th {
   padding-bottom: 12px;
 }
 
-header {
-  box-sizing: border-box;
-  padding-right: 20px;
-  width: 25%;
-  float: left;
-  position: fixed;
-}
+@media screen and (min-width: 48em) {
+  header {
+    box-sizing: border-box;
+    padding-right: 20px;
+    width: 25%;
+    float: left;
+    position: fixed;
+  }
 
-article {
-  max-width: 48em;
-  margin: 0 auto;
+  article {
+    max-width: 48em;
+    margin: 0 auto;
+  }
 }
