@@ -129,7 +129,7 @@ header {
   padding-bottom: 2em;
 }
 
-@media screen and (min-width: 68em) {
+@media screen and (min-width: 84em) {
   header {
     box-sizing: border-box;
     padding-right: 20px;
