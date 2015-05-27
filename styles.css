@@ -60,7 +60,7 @@ h6, .h6 {
   font-size: .75rem;
 }
 
-article p, li {
+article p, li, table {
   /* -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -epub-hyphens: auto;
