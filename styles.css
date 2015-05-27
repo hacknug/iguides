@@ -68,7 +68,7 @@ article p, li, table {
   hyphens: auto;
   text-align: justify; */
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin-top: 0;
   margin-bottom: 1.5rem;
   -webkit-margin-before: 1em;
@@ -138,7 +138,7 @@ header {
   }
 
   article {
-    max-width: 48em;
+    max-width: 42em;
     margin: 0 auto;
     -webkit-margin-before: 0;
     -webkit-margin-after: 3em;
