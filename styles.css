@@ -129,7 +129,7 @@ header {
   padding-bottom: 2em;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 68em) {
   header {
     box-sizing: border-box;
     padding-right: 20px;
@@ -137,7 +137,9 @@ header {
     float: left;
     position: fixed;
   }
+}
 
+@media screen and (min-width: 48em) {
   article {
     max-width: 42em;
     margin: 0 auto;
