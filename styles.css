@@ -87,7 +87,7 @@ article p, li, table {
 img {
   /* float: left; */
   width: 100%;
-  max-width: 320px;
+  max-width: 340px;
   margin: 0 auto;
 }
 
