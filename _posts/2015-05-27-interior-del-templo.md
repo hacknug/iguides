@@ -1,5 +1,5 @@
 ---
-title: Templo del Rey del Mar
+title: Interior del Templo
 ---
 
 # CONSEGUIR LA PRIMERA CARTA NÁUTICA

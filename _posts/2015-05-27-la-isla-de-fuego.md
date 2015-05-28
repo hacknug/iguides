@@ -1,5 +1,5 @@
 ---
-title: Templo del Rey del Mar
+title: La Isla de Fuego
 ---
 
 # ISLA DE FUEGO
