@@ -40,7 +40,7 @@
 
   {% if page.is_index %}
     {% for post in paginator.posts %}
-    <article class="singular">
+    <article>
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}</h1>
       <p>{{ post.excerpt|strip_html }}</p>
