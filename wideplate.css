@@ -31,9 +31,9 @@ body {
   -webkit-column-width: 22em;
   -moz-column-width: 22em;
   column-width: 22em;
-  -webkit-column-gap: 1px;
-  -moz-column-gap: 1px;
-  column-gap: 1px;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
   -webkit-column-fill: auto;
   -moz-column-fill: auto;
   column-fill: auto;
