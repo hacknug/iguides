@@ -37,9 +37,9 @@ body {
   -webkit-column-fill: auto;
   -moz-column-fill: auto;
   column-fill: auto;
-  -webkit-column-rule: 1px dotted #cccccc;
-  -moz-column-rule: 1px dotted #cccccc;
-  column-rule: 1px dotted #cccccc;
+  -webkit-column-rule: 1px solid #cccccc;
+  -moz-column-rule: 1px solid #cccccc;
+  column-rule: 1px solid #cccccc;
   margin: 0 auto;
   padding: 0;
 }
