@@ -21,6 +21,7 @@
   <link rel="next" href="{{ paginator.next_page_path }}">
   {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/wideplate.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/fonts/fonts.css">
   <link href="/atom.xml" rel="alternate" type="application/atom+xml">
 </head>
@@ -79,7 +80,17 @@
       <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
     </div>
     {% endunless %}{% endcomment %}
-  </article>
+    </article>
+      <script src="jquery.min.js"></script>
+    <script src="jquery.wideplate.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.singular').widthfix();
+        $(window).on('resize orientationchange', function() {
+          $('.singular').widthfix();
+        });
+      });
+    </script>
   {% endif %}
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
