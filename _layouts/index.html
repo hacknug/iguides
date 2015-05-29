@@ -26,7 +26,7 @@
   <link href="/atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
-<body>
+<body class="singular-wrapper">
   <header>
     <h1 class="logo"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1><br>
     {% if site.links %}
@@ -40,7 +40,7 @@
 
   {% if page.is_index %}
     {% for post in paginator.posts %}
-    <article>
+    <article class="singular">
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}</h1>
       <p>{{ post.excerpt|strip_html }}</p>
@@ -59,7 +59,7 @@
     </div>
     {% endif %}
   {% else %}
-  <article>
+  <article class="singular">
     {% comment %}
     <header>
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
