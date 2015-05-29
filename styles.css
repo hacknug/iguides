@@ -135,8 +135,8 @@ header {
     box-sizing: border-box;
     /* padding-right: 20px; */
     width: 20em;
-    /* float: left;
-    position: fixed; */
+    float: left;
+    /* position: fixed; */
   }
 }
 
