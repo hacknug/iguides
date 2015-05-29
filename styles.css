@@ -1,8 +1,8 @@
 body {
   font-family: Georgia, serif;
   /* max-width: 48em;
-  margin: 0 auto;
   padding: 3ex; */
+  margin: 0 auto;
 }
 
 /* body > header {
@@ -143,6 +143,7 @@ header {
   article {
     /* max-width: 42em; */
     margin: 0 auto;
+    padding: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 3em;
   }
