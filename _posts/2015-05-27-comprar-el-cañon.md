@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Comprar el Cañón
 ---
 

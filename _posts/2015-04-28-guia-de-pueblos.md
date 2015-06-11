@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Guía de pueblos
 ---
 

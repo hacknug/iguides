@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Templo del Rey del Mar
 ---
 

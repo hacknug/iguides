@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Templo del Viento
 ---
 
