@@ -1,8 +1,8 @@
 body {
   font-family: Georgia, serif;
-  /* max-width: 48em;
-  padding: 3ex; */
+  /* max-width: 48em; */
   margin: 0 auto;
+  padding: 3ex;
 }
 
 /* body > header {
@@ -79,10 +79,9 @@ article p, li, table {
 
 .leyenda {
   font-size: .875rem;
-  /* padding-top: 3rem;
-  -webkit-margin-after: 3em; */
+  /* padding-top: 3rem; */
   -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
+  -webkit-margin-after: 3em;
 }
 
 img {
@@ -133,18 +132,17 @@ header {
 @media screen and (min-width: 84em) {
   header {
     box-sizing: border-box;
-    /* padding-right: 20px; */
-    width: 20em;
+    padding-right: 20px;
+    width: 25%;
     float: left;
-    /* position: fixed; */
+    position: fixed;
   }
 }
 
 @media screen and (min-width: 48em) {
   article {
-    /* max-width: 42em; */
+    max-width: 42em;
     margin: 0 auto;
-    padding: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 3em;
   }
