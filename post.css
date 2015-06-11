@@ -1,0 +1,19 @@
+article {
+  height: 100%;
+  display: inline-block;
+  -webkit-column-width: 18em;
+  -moz-column-width: 18em;
+  column-width: 18em;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+  -webkit-column-fill: auto;
+  -moz-column-fill: auto;
+  column-fill: auto;
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-rule: 1px solid #ccc;
+  column-rule: 1px solid #000;
+  white-space: normal;
+  margin-right: 1.2em;
+  vertical-align: top;
+}

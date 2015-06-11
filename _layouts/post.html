@@ -21,7 +21,6 @@
   <link rel="next" href="{{ paginator.next_page_path }}">
   {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/post.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/fonts/fonts.css">
   <link href="/atom.xml" rel="alternate" type="application/atom+xml">
 </head>
@@ -38,24 +37,28 @@
     {% endif %}
   </header>
 
-  {% for post in paginator.posts %}
   <article>
-    {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;{% if post.link %}<a href="{{ post.link }}">&infin;</a>{% endif %}</h1>
-    <p>{{ post.excerpt|strip_html }}</p>
-  </article>
-  {% endfor %}
+    {% comment %}
+    <header>
+      {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
+      <h1>{{ page.title }}{% if page.link %}&nbsp;<a href="{{ page.link }}">&infin;</a>{% endif %}</h1>
+    </header>
+    {% endcomment %}
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path | replace:'index.html','' }}">←</a>
-    {% endif %}
-    <span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">→</a>
-    {% endif %}
-  </div>
+    {{ content }}
+
+    {% comment %}{% unless page.comments_disabled and site.disqus_shortname %}
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments</noscript>
+      <script>
+        var disqus_title = '{{ page.title }}';
+        var disqus_identifier = window.location.pathname;
+        var disqus_url = '{{ site.url }}' + window.location.pathname;
+      </script>
+      <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
+    </div>
+    {% endunless %}{% endcomment %}
+  </article>
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   {% if site.crowdprocess_provider_id %}
