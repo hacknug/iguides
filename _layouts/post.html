@@ -60,6 +60,16 @@
     </div>
     {% endunless %}{% endcomment %}
   </article>
+  <script src="{{ site.baseurl }}/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/jquery.wideplate.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.singular').widthfix();
+      $(window).on('resize orientationchange', function() {
+        $('.singular').widthfix();
+      });
+    });
+  </script>
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
   {% if site.crowdprocess_provider_id %}
