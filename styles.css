@@ -120,10 +120,10 @@ td, th {
   padding-bottom: 12px;
 }
 
-article {
+/* article {
   -webkit-margin-before: 0;
   -webkit-margin-after: 3em;
-}
+} */
 
 header {
   padding-bottom: 2em;
@@ -139,11 +139,11 @@ header {
   }
 }
 
-@media screen and (min-width: 48em) {
+/* @media screen and (min-width: 48em) {
   article {
     max-width: 42em;
     margin: 0 auto;
     -webkit-margin-before: 0;
     -webkit-margin-after: 3em;
   }
-}
+} */
