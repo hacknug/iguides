@@ -21,13 +21,12 @@
   <link rel="next" href="{{ paginator.next_page_path }}">
   {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/wideplate.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/fonts/fonts.css">
   <link href="/atom.xml" rel="alternate" type="application/atom+xml">
 </head>
 
-<body class="singular-wrapper">
-  <header class="singular">
+<body>
+  <header>
     <h1 class="logo"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1><br>
     {% if site.links %}
     <nav>
@@ -59,7 +58,7 @@
     </div>
     {% endif %}
   {% else %}
-  <article class="singular">
+  <article>
     {% comment %}
     <header>
       {% if page.date %}<h5><time datetime="{{ page.date|date_to_xmlschema }}">{{ page.date|date_to_long_string }}</time></h5>{% endif %}
@@ -80,17 +79,7 @@
       <script src="//{{ site.disqus_shortname }}.disqus.com/embed.js" async="async"></script>
     </div>
     {% endunless %}{% endcomment %}
-    </article>
-      <script src="{{ site.baseurl }}/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/jquery.wideplate.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('.singular').widthfix();
-        $(window).on('resize orientationchange', function() {
-          $('.singular').widthfix();
-        });
-      });
-    </script>
+  </article>
   {% endif %}
 
   <link rel="stylesheet" href="//raw.githack.com/mojombo/tpw/master/css/syntax.css">
