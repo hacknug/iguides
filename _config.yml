@@ -7,14 +7,14 @@ name: iGuides
 
 # url on which your blog is available (no trailing slash), required
 url: "http://hacknug.github.io"
-baseurl: "/terranigma"
+baseurl: "/iguides"
 
 # optional list of links that will be placed in the header
 links:
   Guía Original: "http://terranigma.gurkgamer.com"
   Github: "https://github.com/hacknug"
   Twitter: "https://twitter.com/hack_nug"
-  About: "http://hacknug.github.io/terranigma/about/"
+  About: "http://hacknug.github.io/iguides/about/"
 
 ## 3rd party services (all parameters are optional)
 #### http://disqus.com/ site identifier

@@ -37,6 +37,12 @@
       {% endfor %}
     </nav>
     {% endif %}
+    <br><br>
+    <nav>
+      {% for node in page.nodes %}
+          {{ node.text_block | markdownify }}
+      {% endfor %}
+    </nav>
   </header>
 
   <article>
