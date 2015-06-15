@@ -1,25 +1,23 @@
---- 
-- 
-  href: /templo-del-viento/
-  title: Desarrollo
-- 
-  href: /templo-del-viento/
-  title: "Armas y Equipo"
-- 
-  href: /templo-del-viento/
-  title: "Cartas Náuticas"
-- 
-  href: /templo-del-viento/
-  title: Secretos
-- 
-  href: /templo-del-viento/
-  title: "Cristales Espirituales"
-- 
-  href: /templo-del-viento/
-  title: Tesoros
-- 
-  href: /templo-del-viento/
-  title: "Mapas del Tesoro"
-- 
-  href: /templo-del-viento/
-  title: "Preguntas Habituales"
+- title: "Desarrollo"
+  href: "/templo-del-viento/"
+
+- title: "Armas y Equipo"
+  href: "/templo-del-viento/"
+
+- title: "Cartas Náuticas"
+  href: "/templo-del-viento/"
+
+- title: "Secretos"
+  href: "/templo-del-viento/"
+
+- title: "Cristales Espirituales"
+  href: "/templo-del-viento/"
+
+- title: "Tesoros"
+  href: "/templo-del-viento/"
+
+- title: "Mapas del Tesoro"
+  href: "/templo-del-viento/"
+
+- title: "Preguntas Habituales"
+  href: "/templo-del-viento/"
