@@ -41,7 +41,7 @@
     <nav>
       {% for item in site.data.nav %}
       <li><a href="{{ site.url }}{{ item.href }}">{{ item.title }}</a></li>
-        {% if item.subcategories != null %}
+        {% if item.subcategories == null_dolo %}
           {% for subcategory in item.subcategories %}
             <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
           {% endfor %}
