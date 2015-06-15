@@ -41,18 +41,6 @@
     <nav>
       {% for item in site.data.nav %}
       <a href="{{ site.baseurl }}{{ item.href }}">{{ item.title }}</a>
-
-        {% comment %}
-
-        {% if item.subcategories == null_dolo %}
-          {% for subcategory in item.subcategories %}
-            <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
-          {% endfor %}
-        {% else %}
-          <li><a href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>{% endif %}</li>
-
-          {% endcomment %}
-
       {% endfor %}
     </nav>
   </header>
