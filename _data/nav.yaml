@@ -1,51 +1,117 @@
-- Desarrollo:
-  - Conseguir la Espada
-  - Primera Carta Náutica:
-    - Templo del Rey del Mar
-    - Interior del Templo
-  - Segunda Carta Náutica:
-    - La Isla de Fuego
-    - Templo de Fuego
-    - Templo del Rey del Mar
-  - Conseguir la Grúa:
-    - Comprar el Cañón
-    - Isla Molida
-    - Isla de Viento
-    - Templo del Viento
-    - Templo del Rey del Mar
-    - Coger la Llave del Sol
-    - Templo del Valor
-  - Tercera Carta Náutica:
-    - Abordar Barco Fantasma
-    - El Barco Fantasma
-    - Isla de Zauz
-    - Templo del Rey del Mar
-  - Cuarta Carta Náutica:
-    - Isla Goron
-    - Templo Goron
-    - Isla Nevada
-    - Templo Hielo
-    - Templo del Rey del Mar
-  - Llegar hasta Bellum:
-    - Viajar al Noreste
-    - Isla Difuntos
-    - Isla de las Ruinas
-    - Templo de Muto
-    - La Espada Sagrada
-    - Enfrentamiento Final
-- Armas y Equipo
-- Cartas Náuticas
-- Secretos:
-  - Las Ranas Doradas
-  - Conseguir la Caña
-  - Isla Laberinto
-  - Trovador
-  - Minijuegos
-  - Corazones
-  - Barcos
-  - Isla de los Espíritus
-  - Búsqueda de Objetos
-- Cristales Espirituales
-- Tesoros
-- Mapas del Tesoro
-- Preguntas Habituales
+- title: "Desarrollo"
+  href: ""
+  subcategories:
+  - title: "Conseguir la Espada
+    href: ""
+  - title: "Primera Carta Náutica"
+    href: ""
+    subcategories:
+    - title: "Templo del Rey del Mar"
+      href: ""
+    - title: "Interior del Templo"
+      href: ""
+  - title: "Segunda Carta Náutica"
+    href: ""
+    subcategories:
+    - title: "La Isla de Fuego"
+      href: ""
+    - title: "Templo de Fuego"
+      href: ""
+    - title: "Templo del Rey del Mar"
+      href: ""
+  - title: "Conseguir la Grúa"
+    href: ""
+    subcategories:
+    - title: "Comprar el Cañón"
+      href: ""
+    - title: "Isla Molida"
+      href: ""
+    - title: "Isla de Viento"
+      href: ""
+    - title: "Templo del Viento"
+      href: ""
+    - title: "Templo del Rey del Mar"
+      href: ""
+    - title: "Coger la Llave del Sol"
+      href: ""
+    - title: "Templo del Valor"
+      href: ""
+  - title: "Tercera Carta Náutica"
+    href: ""
+    subcategories:
+    - title: "Abordar Barco Fantasma"
+      href: ""
+    - title: "El Barco Fantasma"
+      href: ""
+    - title: "Isla de Zauz"
+      href: ""
+    - title: "Templo del Rey del Mar"
+      href: ""
+  - title: "Cuarta Carta Náutica"
+    href: ""
+    subcategories:
+    - title: "Isla Goron"
+      href: ""
+    - title: "Templo Goron"
+      href: ""
+    - title: "Isla Nevada"
+      href: ""
+    - title: "Templo Hielo"
+      href: ""
+    - title: "Templo del Rey del Mar"
+      href: ""
+  - title: "Llegar hasta Bellum"
+    href: ""
+    subcategories:
+    - title: "Viajar al Noreste"
+      href: ""
+    - title: "Isla Difuntos"
+      href: ""
+    - title: "Isla de las Ruinas"
+      href: ""
+    - title: "Templo de Muto"
+      href: ""
+    - title: "La Espada Sagrada"
+      href: ""
+    - title: "Enfrentamiento Final"
+      href: ""
+
+- title: "Armas y Equipo"
+  href: ""
+
+- title: "Cartas Náuticas"
+  href: ""
+
+- title: "Secretos"
+  href: ""
+  subcategories:
+  - title: "Las Ranas Doradas"
+    href: ""
+  - title: "Conseguir la Caña"
+    href: ""
+  - title: "Isla Laberinto"
+    href: ""
+  - title: "Trovador"
+    href: ""
+  - title: "Minijuegos"
+    href: ""
+  - title: "Corazones"
+    href: ""
+  - title: "Barcos"
+    href: ""
+  - title: "Isla de los Espíritus"
+    href: ""
+  - title: "Búsqueda de Objetos"
+    href: ""
+
+- title: "Cristales Espirituales"
+  href: ""
+
+- title: "Tesoros"
+  href: ""
+
+- title: "Mapas del Tesoro"
+  href: ""
+
+- title: "Preguntas Habituales"
+  href: ""

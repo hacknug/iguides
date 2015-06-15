@@ -39,8 +39,14 @@
     {% endif %}
     <br><br>
     <nav>
-      {% for node in page.nodes %}
-          {{ node.text_block | markdownify }}
+      {% for item in site.data.nav %}
+      <li><a href="{{ site.url }}{{ item.href }}">{{ item.title }}</a></li>
+        {% if item.subcategories != null %}
+          {% for subcategory in item.subcategories %}
+            <li><a href="{{ site.url }}{{ subcategory.href }}">{{ subcategory.title }}</a></li>
+          {% endfor %}
+        {% else %}
+          <li><a href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>{% endif %}</li>
       {% endfor %}
     </nav>
   </header>
