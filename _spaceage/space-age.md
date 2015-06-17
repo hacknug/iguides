@@ -3,7 +3,7 @@ layout: post
 title: Space Age
 ---
 
-![]({{ site.spaceage }}/space-age/image.jpg)
+![]({{ site.baseurl }}/images/space-age/image.jpg)
 
 Space Age features a weird mixed up soup of genres. It has point and click adventure style puzzles, it controls like a real-time strategy game, and it has both stealth and combat sections.
 
@@ -34,7 +34,7 @@ Go north, then follow the voice back to the southwest corner. Lead Private and A
 
 **Bonus objectives**
 
-![]({{ site.spaceage }}/images/space-age/space-age-bonus-2.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-bonus-2.jpg)
 
 **Keep Your Ears Open, Too** - Go straight to Mrs Archer by immediately heading for the bottom left corner of this map, before going too far north, to get a bonus.
 
