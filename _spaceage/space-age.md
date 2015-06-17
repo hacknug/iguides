@@ -16,19 +16,19 @@ That's why we've put together a guide that will help you finish every level and 
 
 ## Mission 1 - A Strange Place
 
-![]({{ site.spaceage.directory }}/images/space-age-mission-1.jpg)
+![]({{ site.baseurl }}{{ site.spaceage.directory }}/images/space-age-mission-1.jpg)
 
 Simply follow Sergeant Goldman to finish this chapter.
 
 **Bonus objectives**
 
-![]({{ spaceage.directory }}/images/space-age-bonus-1.jpg)
+![]({{ site.baseurl }}{{ spaceage.directory }}/images/space-age-bonus-1.jpg)
 
 **An Explorer Explores** - Wander off from Goldman and find this apple tree to the east of the map to finish this objective.
 
 ## Mission 2 - Greenhorn
 
-![]({{ site.spaceage }}/images/space-age-mission-2.jpg)
+![]({{ site.baseurl }}{{ site.spaceage }}/images/space-age-mission-2.jpg)
 
 Go north, then follow the voice back to the southwest corner. Lead Private and Archer up to the far north. To control multiple characters at once, you want to draw a box around them with two fingers.
 
