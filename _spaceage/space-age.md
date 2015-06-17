@@ -16,13 +16,13 @@ That's why we've put together a guide that will help you finish every level and 
 
 ## Mission 1 - A Strange Place
 
-![]({{ site.spaceage }}/images/space-age-mission-1.jpg)
+![]({{ site.spaceage.directory }}/images/space-age-mission-1.jpg)
 
 Simply follow Sergeant Goldman to finish this chapter.
 
 **Bonus objectives**
 
-![]({{ site.spaceage }}/images/space-age-bonus-1.jpg)
+![]({{ spaceage.directory }}/images/space-age-bonus-1.jpg)
 
 **An Explorer Explores** - Wander off from Goldman and find this apple tree to the east of the map to finish this objective.
 
