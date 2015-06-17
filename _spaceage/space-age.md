@@ -16,45 +16,45 @@ That's why we've put together a guide that will help you finish every level and 
 
 ## Mission 1 - A Strange Place
 
-![]({{ site.baseurl }}/space-age/space-age-mission-1.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-1.jpg)
 
 Simply follow Sergeant Goldman to finish this chapter.
 
 **Bonus objectives**
 
-![]({{ site.baseurl }}/space-age/space-age-bonus-1.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-bonus-1.jpg)
 
 **An Explorer Explores** - Wander off from Goldman and find this apple tree to the east of the map to finish this objective.
 
 ## Mission 2 - Greenhorn
 
-![]({{ site.baseurl }}/space-age/space-age-mission-2.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-2.jpg)
 
 Go north, then follow the voice back to the southwest corner. Lead Private and Archer up to the far north. To control multiple characters at once, you want to draw a box around them with two fingers.
 
 **Bonus objectives**
 
-![]({{ site.spaceage }}/space-age/space-age-bonus-2.jpg)
+![]({{ site.spaceage }}/images/space-age/space-age-bonus-2.jpg)
 
 **Keep Your Ears Open, Too** - Go straight to Mrs Archer by immediately heading for the bottom left corner of this map, before going too far north, to get a bonus.
 
 ## Mission 3 - Intelligence
 
-![]({{ site.spaceage }}/space-age/space-age-mission-3-a.jpg)
+![]({{ site.spaceage }}/images/space-age/space-age-mission-3-a.jpg)
 
 Our job is to locate Cadet Periwinkle and Engineer Kowalski. Periwinkle is in the dead center of the map, to the northeast of your starting point.
 
-![]({{ site.spaceage }}/space-age/space-age-mission-3-b.jpg)
+![]({{ site.spaceage }}/images/space-age/space-age-mission-3-b.jpg)
 
 Kowalski is in the southeast corner, and has gotten himself trapped in this building. Tap on him to change character, then walk north and press the keypad. Change to Rookie and then walk into the building. Keep pressing the button as Kowalski until Periwinkle is in.
 
-![]({{ site.spaceage }}/space-age/space-age-mission-3-c.jpg)
+![]({{ site.spaceage }}/images/space-age/space-age-mission-3-c.jpg)
 
 Select both Kowalski and Rookie and then head to the beacon above.
 
 **Bonus objectives**
 
-![]({{ site.spaceage }}/space-age/space-age-bonus-3.jpg)
+![]({{ site.spaceage }}/images/space-age/space-age-bonus-3.jpg)
 
 **Xenoarchaeology** - There's a weird object just to the right of your starting point. Go around the trees to find it, then examine the object to cash in the bonus.
 
