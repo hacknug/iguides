@@ -174,11 +174,11 @@ Turn on the gramophone to start the music. This will make the path on the left m
 
 Turn the music on, and then off again when the path moves once. Make the boy walk left. Continue this process until the boy reaches the end.
 
-![]({{ site.baseurl }}/images/space-age/space-age-mission-9-e.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-9-f.jpg)
 
 In this area, four bits of red path are switching position every half second, but they can be paused by flipping one of these switches. Flip the top switch when the leftmost path is joined up, like above. The second switch is stuck.
 
-![]({{ site.baseurl }}/images/space-age/space-age-mission-9-f.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-9-e.jpg)
 
 Flip the third switch when the third piece of path is in its lowest position like above. You will need to listen for the beat to know when to flip the switch because you can't see the path and switch at the same time.
 
