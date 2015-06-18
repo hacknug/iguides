@@ -196,11 +196,11 @@ Now walk across the path, being careful to move as the middle both of path chang
 
 ## Mission 10 - A Key Moment
 
-![]({{ site.baseurl }}/images/space-age/space-age-mission-10-a.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-10-b.jpg)
 
 Don't go straight for the button. Instead wander down below the trees to find a building on the left.
 
-![]({{ site.baseurl }}/images/space-age/space-age-mission-10-b.jpg)
+![]({{ site.baseurl }}/images/space-age/space-age-mission-10-a.jpg)
 
 Go in and wander in front of the security camera to set off the alarm. This will cause the alien to come investigate. Quickly dart through the gap on the left and then go down, run right, hit the button, and jump through the door before the alien comes back to his post.
 
